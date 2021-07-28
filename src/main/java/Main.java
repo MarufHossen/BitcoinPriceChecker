@@ -7,9 +7,9 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("Enter currency code (eg. EUR, USD, AUD, CAD etc): ");
         String currencyCode = scanner.nextLine();
+
         BitCoin bitCoin = new BitCoin(currencyCode);
         bitCoin.getCurrentBitCoinPrice();
 
